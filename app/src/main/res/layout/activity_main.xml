@@ -12,15 +12,27 @@
     tools:context="com.londonappbrewery.bitcointicker.MainActivity">
 
     <TextView
+        android:id="@+id/priceLabel"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="0dp"
+        android:paddingTop="64dp"
         android:text="@string/label_default_text"
-        android:id="@+id/priceLabel"
-        android:textSize="45sp"
-        android:textStyle="bold"
         android:textColor="@color/fontColour"
-        android:layout_centerVertical="true"
-        android:layout_centerHorizontal="true"/>
+        android:textSize="44sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/helpText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:paddingBottom="16dp"
+        android:text="@string/label_help_text"
+        android:textColor="@color/fontColour"
+        android:textSize="36dp"
+        android:textStyle="bold" />
 
     <ImageView
         android:layout_width="wrap_content"
